@@ -11,7 +11,11 @@ __pycache__/
 
 # Data files
 data/raw/
-data/embeddings/
+# Allow embeddings and specific processed file
+!data/embeddings/
+!data/processed/final_dataset_ranked.csv
+data/processed/final_dataset.csv
+data/processed/final_dataset_with_clusters.csv
 
 # Database files
 *.db
