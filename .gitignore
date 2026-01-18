@@ -1,0 +1,43 @@
+# Virtual Environment
+venv_nlp/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data files
+data/raw/
+data/embeddings/
+
+# Database files
+*.db
+qa.db
+qa_platform.db
+
+# Node modules
+frontend/qa-ui/node_modules/
+frontend/qa-ui/build/
+frontend/qa-ui/.npm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
